@@ -8,9 +8,12 @@ We are a team of committed health care professionals, IT experts, developers, an
 + To provide up-to-date and accurate information and updates about the ebola virus
 + To utilize technology to spread information about ebola in a highly accessible way, for everyone in Ghana regardless of socio-economic backgrounds.
 + To enable easy access to emergency medical assistance in suspected cases of Ebola patients.
-## Partners
-![My helpful screenshot]({{ site.url }}/images/1.jpg =200x)
-![My helpful screenshot]({{ site.url }}/images/2.png =200x)
++ 
+
+##Partners
+![My helpful screenshot]({{ site.url }}/images/1.jpg )
+![My helpful screenshot]({{ site.url }}/images/2.png =100x)
 ![My helpful screenshot]({{ site.url }}/images/3.png =200x)
 ![My helpful screenshot]({{ site.url }}/images/4.png =200x)
 ![My helpful screenshot]({{ site.url }}/images/5.png =200x)
+<img src="/images/3.png" alt="img text" width="100" height="60"/>
