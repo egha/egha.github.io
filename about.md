@@ -10,8 +10,9 @@ We are a team of committed health care professionals, IT experts, developers, an
 + To enable easy access to emergency medical assistance in suspected cases of Ebola patients.
 
 ##Partners
-![My helpful screenshot]({{ site.url }}/images/1.jpg )
-<img src="/images/2.png" alt="img text" width="200" height="160"/>
-<img src="/images/3.png" alt="img text" width="200" height="160"/>
-<img src="/images/4.png" alt="img text" width="200" height="160"/>
-<img src="/images/5.png" alt="img text" width="200" height="160"/>
+<a href="http://www.thoughtworks.com/" rel="Thoughtworks"><img src="/images/1.jpg" alt="img text" width="200" height="160"/></a>
+<a href="http://ispacegh.com//" rel="iSpace"><img src="/images/2.png" alt="img text" width="200" height="160"/></a>
+<a href="http://www.pollafrique.com/" rel="Poll Afrique"><img src="/images/3.png" alt="img text" width="200" height="160"/></a>
+<a href="http://www.votomobile.org/" rel="Voto Mobile"><img src="/images/5.png" alt="img text" width="200" height="160"/></a>
+<a href="http://ghanahealthnest.com/" rel="Ghana Health Nest"><img src="/images/4.png" alt="img text" width="200" height="160"/></a>
+
