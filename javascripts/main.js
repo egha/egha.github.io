@@ -1,3 +1,7 @@
+responsiveNav(".nav-collapse", {
+  label: '<img class="brand" src="/images/logo.png" />'
+});
+
 $(".full img").on("click", function() {
   $(this).toggleClass("zoom");
 });
