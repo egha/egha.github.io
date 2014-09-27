@@ -1,5 +1,8 @@
 <script src="{{ "/javascripts/jquery-1.10.2.js" | prepend: site.url }}"></script>
+<script src="{{ "/javascripts/ideal-image-slider.min.js" | prepend: site.url }}"></script>
+<script src="{{ "/javascripts/responsive-nav.min.js" | prepend: site.url }}"></script>
 <script src="{{ "/javascripts/main.js" | prepend: site.url }}"></script>
+
 {% if site.inc.sharing.twitter %}<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>{% endif %}
 {% if site.inc.sharing.facebook %}<div id="fb-root"></div>
 <script>(function(d, s, id) {
