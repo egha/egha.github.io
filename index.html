@@ -62,5 +62,12 @@ layout: base
       {% if paginator.next_page %}
         <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
       {% endif %}
+      <div class="post-content-truncate">
+  {% if post.content contains "<!-- more -->" %}
+    {{ post.content | split:"<!-- more -->" | first % }}
+  {% else %}
+    {{ post.content | strip_html | truncatewords:100 }}
+  {% endif %}
+</div>
     </section>
 </article>
