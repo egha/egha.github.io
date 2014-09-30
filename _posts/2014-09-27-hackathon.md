@@ -6,7 +6,7 @@ title: "Ebola Ghana Task Force "
 The 2014 West Africa Ebola virus outbreak has claimed a suspected 1552 lives. No doubt, very scary.
 
 We are confronted with information on the news, twitter, whatsapp, at school, church and word of mouth. But what is real? And whom can we trust? Though Ebola is not in Ghana, what measures do we have in place to make sure we are safe?
-[[MORE]]
+<!--more-->
 
 We are trying to change that.
 
