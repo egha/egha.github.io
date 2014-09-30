@@ -46,19 +46,7 @@ layout: base
                     </span>
                 </div>
                 
-                {% if post.content contains '<!--more-->' %}
-    
-    {{ post.content | split:'<!--more-->' | first }}
-    
-    <p><a href="{{ post.url }}">Continue reading</a></p>
-
-{% else %}
-
-    {{ post.content }}
-    
-{% endif %}
                 
-            {% endif %}
         </div>
         <hr>
     </section>
