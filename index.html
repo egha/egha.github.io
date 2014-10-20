@@ -28,39 +28,47 @@ layout: base
 </div>
 
 
-<article class="container">
-{% for post in paginator.posts %}
-  {% unless post.draft %}
-    <section class="index">
+<article class="container">  
+    
+    <?php 
+
+    $file = 'http://www.wtae.com/9682054?format=rss_2.0&view=feed';
+
+    if(!$xml = simplexml_load_file($file)){
+        echo "<font color=blue size=34>FEEDS WOULD BE UP SOON</font>";
+    } 
+    
+    
+    while($x<10){
+$title=$xml->channel->item[$x]->title;
+$link=$xml->channel->item[$x]->link ;
+$des=$xml->channel->item[$x]->description;
+$pubDate=$xml->channel->item[$x]->pubDate ;
+echo "<section class=\"index\">
         <div>
-            <div class="meta">
-                <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            <div class=\"meta\">
+                <time>$pubDate</time>
             </div>
-            <h2 class="title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" target="_blank" rel="prefetch">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt }}</p>
-            {% if post.source %}
-                <div class="meta">
-                    Source  &mdash; <address>{{ post.source }}</address>
+            <h2 class=\"title\"><a href=\"$link\" target=\"_blank\" rel=\"prefetch\">$title</a></h2>
+            <p></p>
+            
+                <div class=\"meta\">
+                     <address>$des</address>
                     <span>
-                        <i class="fa fa-share-alt fa-lg"></i>
+                        <i class=\"fa fa-share-alt fa-lg\"></i>
                     </span>
                 </div>
-            {% endif %}
+            
         </div>
         <hr>
     </section>
-    {% endunless %}
-    {% endfor %}
+    ";
+$x++;   
+}
+?>
+    
     <section class="pagination" style="text-align:center">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a href="/" class="btn btn-outline">‹ Newer</a>
-        {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
-        {% endif %}
-      {% endif %}
-      {% if paginator.next_page %}
-        <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
-      {% endif %}
+      
+      
     </section>
 </article>
