@@ -11,7 +11,6 @@ We are a team of committed health care professionals, IT experts, developers, an
 
 ##Partners
 <a href="http://www.thoughtworks.com/" rel="Thoughtworks" target="_blank"><img src="/images/1.jpg" alt="img text" width="200" height="160"/></a>
-<a href="http://ispacegh.com//" rel="iSpace" target="_blank"><img src="/images/2.png" alt="img text" width="200" height="160"/></a>
 <a href="http://oasiswebsoft.com/" rel="Oasis Websoft" target="_blank"><img src="/images/6.png" alt="img text" width="140" height="100"/></a>
 <a href="http://www.pollafrique.com/" rel="Poll Afrique" target="_blank"><img src="/images/3.png" alt="img text" width="200" height="160"/></a>
 <a href="http://www.votomobile.org/" rel="Voto Mobile" target="_blank"><img src="/images/5.png" alt="img text" width="200" height="160"/></a>
